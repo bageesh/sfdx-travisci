@@ -3,6 +3,8 @@ os: trusty
 cache: false
 env:
 - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
+- USERNAME=bageesh@simpluslabs.com
+- CONSUMERKEY=3MVG9d8..z.hDcPLDcIoCUx1gOwT1jlCuKSTrDp0njeJ5SQDRBSMaQPLPjvgBy415M9CR_t8H.uSn1qTJWhs3
 before_install:
 
 - export SFDX_AUTOUPDATE_DISABLE=false
